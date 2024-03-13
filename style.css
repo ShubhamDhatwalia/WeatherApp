@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #222;
+}
+
+.card{
+    width: 100%;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    max-width: 500px;
+    color: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+   padding-left: 15px;
+    height: 50px;
+    border-radius: 5px 0px  0px 5px;
+    flex: 1;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 0px 5px 5px 0px;
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+    
+}
+.search button i{
+    width: 40px;
+    font-size: 22px;
+}
+.card ul {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 15px;
+    background-color: #ebfffc;
+    color: #555;
+    border-radius: 0px 0px 3px 3px;
+    border-top: 1px solid #999;
+    padding: 10px;
+}
+.card ul li{
+    padding: 4px;
+    cursor: pointer;
+}
+
+.card ul li:hover{
+    background-color: #d4e3f5;
+}
